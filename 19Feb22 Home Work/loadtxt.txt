@@ -1,0 +1,1 @@
+load text in load text file.Jquery

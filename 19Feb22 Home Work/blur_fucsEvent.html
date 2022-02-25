@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/jquery.min.js"></script>
+	<title>Document</title>
+</head>
+<body>
+
+
+	<form action="">
+		<h1>Focus | Blur:</h1>
+		<label>Firstname:</label>
+		<input type="text" name="fname" placeholder="Enter your first Name"><br><br>
+		<label>Lastname:</label>
+		<input type="text" name="lname" placeholder="Enter your first Name">
+	</form>
+	
+
+
+
+
+	<script>
+
+		$(document).ready(function(){
+			$("input").focus(function(){
+				$(this).css("background-color","yellow");
+			});
+
+				$("input").blur(function(){
+				$(this).css("background-color","white");
+			});
+		});
+
+	</script>
+</body>
+</html>

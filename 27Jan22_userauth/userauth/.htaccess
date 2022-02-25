@@ -1,0 +1,6 @@
+AuthUserFile D:\xamp\htdocs\phpHHwork\27Jan22_userauth\userauth\inc.htpasswd
+AuthType Basic
+AuthName "My Files"
+Require valid-user
+
+

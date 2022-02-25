@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery.min.js"></script>
+	<title>Blue Fucs</title>
+</head>
+<body>
+
+
+	<h1>Form Focus | Blur:</h1>
+
+	<form>
+		<label>Fist Name:</label><br>
+		<input type="text" name="fname" id="fname" placeholder="Enter your first Name"><br><br>
+		<label>Last Name:</label><br>
+		<input type="text" name="lname" id="lname" placeholder="Enter your last Name">
+	</form>
+
+
+	<script> 
+
+		$(document).ready(function(){
+			$('input').focus(function(){
+				$(this).css('background-color','yellow');
+			});
+
+			$('input').blur(function(){
+				$(this).css('background-color','white');
+			});
+		});
+
+	</script>
+
+</body>
+</html>

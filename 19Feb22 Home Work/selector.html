@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/jquery.min.js"></script>
+	<title>Document</title>
+</head>
+<body>
+
+
+	<h1>Selector:</h1>
+	<p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur tempora ex, eaque sequi, autem accusantium numquam veniam nihil. Neque nulla dignissimos voluptas dolores sit ipsam accusantium, doloremque cumque incidunt nisi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure eligendi perspiciatis repudiandae vel quas voluptate voluptatum exercitationem cum quidem illo iusto eaque, fugiat maiores deleniti sint atque! A id, consequuntur. Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Veniam distinctio iure tempora iusto, suscipit sapiente soluta asperiores nesciunt atque iste tempore. Perspiciatis beatae exercitationem similique dolore earum quibusdam. Ipsam, nihil.</p>
+	<p id="pera1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab dolorem repellendus autem quo, omnis? Rerum nisi veritatis eveniet amet molestias quo distinctio repellat asperiores praesentium ipsam hic, alias enim quos similique, iusto possimus dolore sapiente maiores! Eum in fugiat porro reprehenderit reiciendis et, labore earum fuga quisquam nesciunt inventore atque similique blanditiis doloribus odit recusandae dolorem sit minima saepe obcaecati cum officiis rem quasi iste beatae? Alias nam asperiores dolore dolorem minima distinctio amet aut reiciendis, assumenda sequi qui beatae quasi, quo deserunt maxime voluptatem officiis ab eos explicabo quibusdam eius velit. Dolorem vero doloribus laboriosam sit, saepe aliquid velit, dolores exercitationem numquam blanditiis mollitia voluptatum officia vitae dolorum eum minima a quisquam dicta cumque eligendi optio amet ipsam alias. Totam possimus iure, consequuntur temporibus voluptas esse alias at optio ducimus modi, saepe, itaque? Magnam dignissimos maiores quod enim alias beatae, fugiat quasi itaque neque sed ad provident quidem ipsa aliquid porro non labore veritatis deleniti mollitia tenetur iusto minus asperiores, voluptate dolorum nihil. Vitae eveniet libero voluptatibus enim repellendus, magnam temporibus expedita laudantium molestiae non ipsa obcaecati deleniti, necessitatibus dolores quos impedit, nemo mollitia ut ab blanditiis autem iusto? Iure qui consequatur explicabo magnam voluptatum ex. Quis, aliquid, provident?</p>
+	<button id="btn2">Hover</button>
+	<button id="btn1">Toggle</button>
+	
+
+
+
+
+	<script>
+		$(document).ready(function(){
+			$("#btn1").click(function(){
+				$("p").toggle(1600);
+			})
+				 $("#btn2").hover(function(){
+			 $(this).css("background-color", "yellow");
+				    }, function(){
+				    $(this).css("background-color", "pink");
+				  });
+			
+		})
+	</script>
+
+
+</body>
+</html>

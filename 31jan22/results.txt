@@ -1,0 +1,6 @@
+Waliul hasan, hasan@gmail.com, 40
+Alamin, alamin@gmail.com, 60
+Masum billal, masum@gmail.com, 70
+shanto shikder, shanto@gmail.com, 80
+Rana, rana@gmail.com, 50
+	

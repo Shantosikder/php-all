@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery.min.js"></script>
+	<title>Selector</title>
+</head>
+<body>
+
+	<h1>Heading With h1</h1><button id="btn3">Click here</button>
+	<h2>Heading With h2</h2><button id="btn4">Toggle</button>
+
+	<p class="pera1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p id="pera2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<button id="btn4">mouse</button>
+
+	<button id="btn1">hide</button>
+	<button id="btn2">show</button>
+	
+	
+	<script>
+
+		$(document).ready(function(){
+
+			$('#btn1').click(function(){
+				$('p').hide(1600);
+			});
+
+			$('#btn2').click(function(){
+				$('p').show(1600);
+			});
+
+			$("#btn3").click(function(){
+				$("h1").toggle();
+
+			});
+
+			$("#btn4").click(function(){
+				$("h2").toggle();
+			});
+
+			$("#btn1").hover(function(){
+				$("#pera2").css('background-color','yellow');
+
+			});
+
+
+			// $('#btn1').click(function(){    //all hide
+			// 	$('*').hide();
+			// });
+
+			
+
+		});
+	</script>
+
+</body>
+</html>
